@@ -53,7 +53,7 @@ while True:
                 message = client.messages.create(
                     body=f"Información existente en la base de datos: {decoded_data}",
                     from_="whatsapp:+14155238886",
-                    to="whatsapp:+5215582236747",
+                    to="whatsapp:+5215544332211", #Numero personal 
                 )
 
             pts = np.array([code.polygon], np.int32)
