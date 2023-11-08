@@ -19,8 +19,8 @@ cursor.execute(
 )
 
 # Configuración de Twilio para enviar mensajes
-account_sid = "ACa0c163f3221e3b4859dcf32ca35b8dba"
-auth_token = "c3511523506b2071f2d942bf408e8f9c"
+account_sid = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+auth_token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 client = Client(account_sid, auth_token)
 
 # Inicializa la cámara usando OpenCV
